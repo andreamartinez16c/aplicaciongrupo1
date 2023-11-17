@@ -1,34 +1,19 @@
 
 <div class="row">
     <div class="div1">
-        <p>ANDREA MARTINEZ</p>
-        <p>ANDREA MARTINEZ</p>
-        <p>ANDREA MARTINEZ</p>
-        <p>ANDREA MARTINEZ</p>
-        <p>ANDREA MARTINEZ</p>
-        <p>ANDREA MARTINEZ</p>
-        <p>ANDREA MARTINEZ</p>
-        <p>ANDREA MARTINEZ</p>
-        <p>ANDREA MARTINEZ</p>
-        <p>ANDREA MARTINEZ</p>
-        <p>ANDREA MARTINEZ</p>
-        <p>ANDREA MARTINEZ</p>
-        <p>ANDREA MARTINEZ</p>
-        <p>ANDREA MARTINEZ</p>
-        <p>ANDREA MARTINEZ</p>
-        <p>ANDREA MARTINEZ</p>
-        <p>ANDREA MARTINEZ</p>
-        <p>ANDREA MARTINEZ</p>
-        <p>ANDREA MARTINEZ</p>
-        <p>ANDREA MARTINEZ</p>
-        <p>ANDREA MARTINEZ</p>
-        <p>ANDREA MARTINEZ</p>
-        <p>ANDREA MARTINEZ</p>
-        <p>ANDREA MARTINEZ</p>
-        <p>ANDREA MARTINEZ</p>
+      <h2>Lista de Alumnos</h2>
+      <div *ngFor="let alumno of alumnos">
+        {{ alumno.nombre }}
+      </div>
     </div>
-<div class="div2">
-    <div class="card" style="width: 18rem;">
+<!-- <div class="div2">
+  <div *ngFor="let grupo of gruposDeAlumnos" class="card" style="width: 18rem;">
+    <h3 class="card-body">Grupo {{ grupo.numero }}</h3> 
+    <div *ngFor="let alumno of grupo.alumnos" class="alumno-en-grupo">
+      {{ alumno.nombre }}
+    </div>
+  </div> -->
+    <!-- <div class="card" style="width: 18rem;">
         <div class="card-body">
           <h5 class="card-title">GRUPO 1</h5>
           <ul class="card-text" style="list-style: none">
@@ -38,84 +23,7 @@
             <li>ivan</li>
           </ul>
         </div>
-    </div>
-    <div class="card" style="width: 18rem;">
-        <div class="card-body">
-          <h5 class="card-title">GRUPO 1</h5>
-          <ul class="card-text" style="list-style: none">
-            <li>narea</li>
-            <li>macarena</li>
-            <li>mauricio</li>
-            <li>ivan</li>
-          </ul>
-        </div>
-    </div>
-    <div class="card" style="width: 18rem;">
-        <div class="card-body">
-          <h5 class="card-title">GRUPO 1</h5>
-          <ul class="card-text" style="list-style: none">
-            <li>narea</li>
-            <li>macarena</li>
-            <li>mauricio</li>
-            <li>ivan</li>
-          </ul>
-        </div>
-    </div>
-    <div class="card" style="width: 18rem;">
-        <div class="card-body">
-          <h5 class="card-title">GRUPO 1</h5>
-          <ul class="card-text" style="list-style: none">
-            <li>narea</li>
-            <li>macarena</li>
-            <li>mauricio</li>
-            <li>ivan</li>
-          </ul>
-        </div>
-    </div>
-    <div class="card" style="width: 18rem;">
-        <div class="card-body">
-          <h5 class="card-title">GRUPO 1</h5>
-          <ul class="card-text" style="list-style: none">
-            <li>narea</li>
-            <li>macarena</li>
-            <li>mauricio</li>
-            <li>ivan</li>
-          </ul>
-        </div>
-    </div>
-    <div class="card" style="width: 18rem;">
-        <div class="card-body">
-          <h5 class="card-title">GRUPO 1</h5>
-          <ul class="card-text" style="list-style: none">
-            <li>narea</li>
-            <li>macarena</li>
-            <li>mauricio</li>
-            <li>ivan</li>
-          </ul>
-        </div>
-    </div>
-    <div class="card" style="width: 18rem;">
-        <div class="card-body">
-          <h5 class="card-title">GRUPO 1</h5>
-          <ul class="card-text" style="list-style: none">
-            <li>narea</li>
-            <li>macarena</li>
-            <li>mauricio</li>
-            <li>ivan</li>
-          </ul>
-        </div>
-    </div>
-    <div class="card" style="width: 18rem;">
-        <div class="card-body">
-          <h5 class="card-title">GRUPO 1</h5>
-          <ul class="card-text" style="list-style: none">
-            <li>narea</li>
-            <li>macarena</li>
-            <li>mauricio</li>
-            <li>ivan</li>
-          </ul>
-        </div>
-    </div>
-</div>
+    </div> -->
+<!-- </div> -->
 
 </div>
