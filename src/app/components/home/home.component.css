@@ -1,0 +1,22 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /* Columnas responsivas */
+    gap: 20px; /* Espacio entre las tarjetas */
+    width: 90%; /* Ancho del contenedor */
+    margin: 0 auto; /* Centrar el contenedor */
+  }
+  
+  .card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    /* Ajuste de estilos según sea necesario */
+  }
+  
+  /* Media Query para pantallas más pequeñas */
+  @media (max-width: 768px) {
+    .grid-container {
+      grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /* Cambio de tamaño para dispositivos más pequeños */
+      gap: 15px; /* Espacio entre las tarjetas */
+    }
+  }
